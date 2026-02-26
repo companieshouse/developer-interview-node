@@ -1,0 +1,21 @@
+{
+  "name": "developer-interview-node",
+  "version": "1.0.0",
+  "description": "Starter application for interview at Companies House",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npm i && npm run build && nodemon",
+    "build": "tsc"
+  },
+  "author": "Companies House",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
