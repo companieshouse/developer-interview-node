@@ -1,0 +1,13 @@
+{
+    "name": "ch-interview-java",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "forwardPorts": [
+        "3000:3000"
+    ],
+    "customizations": {
+        "vscode": {}
+    }
+}
